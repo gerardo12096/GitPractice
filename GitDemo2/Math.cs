@@ -13,7 +13,7 @@ namespace GitDemo2
         public static int Multiply(int a, int b) => a * b;
         public static int Divide(int a, int b)
         {
-            if(b == 0) throw new DivideByZeroException("Denominator cannot be zero.");
+            if(b <= 0) throw new DivideByZeroException("Denominator must be positive.");
             return a / b;
         }
     }
