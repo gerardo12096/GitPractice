@@ -19,6 +19,7 @@ namespace GitDemo2
         public static int Multiply(int a, int b)
         {
             Console.WriteLine("Multiplying {a} and {b}");
+            Console.WriteLine("Another update from multiply");
             return checked(a * b);
         }
 
