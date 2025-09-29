@@ -21,5 +21,10 @@ namespace GitDemo2
             Console.WriteLine("Multiplying {a} and {b}");
             return checked(a * b);
         }
+
+        public static void sayHello()
+        {
+            Console.WriteLine("Hello from Math!");
+        }
     }
 }
