@@ -20,7 +20,9 @@ namespace GitDemo2
         {
             Console.WriteLine("Multiplying {a} and {b}");
             Console.WriteLine("Another update from multiply");
-            return checked(a * b);
+            int num1 = a;
+            int num2 = b;
+            return checked(num1 * num2);
         }
 
         public static void sayHello()
